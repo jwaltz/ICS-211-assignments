@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic &middot; Tac &middot; Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- styles -->
+    <link href="_/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="_/css/spruce.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+    
+    <style type="text/css">
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Corben', Georgia, Times, serif;
+      }
+      h1 {
+        text-shadow: 1px 1px 1px #ccc;
+      }
+      p, div {
+        font-family: 'Patrick Hand SC', cursive;
+      }
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        background: url(_/img/fabric_of_squares_gray_copy.png) repeat 0 0;
+        margin: 0 auto;
+        max-width: 830px;        
+        padding: 20px;
+        position: relative;
+        top: 20px;
+        box-shadow: 10px 10px 100px #888888;
+      }
+
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      .jumbotron {        
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+    </style>    
+
+  </head>
+
+  <body>
+    <!-- container -->        
+    <div class="container-narrow">      
+      
+      <!-- header -->
+      <div class="masthead">
+        
+        <!-- pill buttons -->
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="docs.html">Docs</a></li>
+          <li><a href="contact.html">Contact</a></li>          
+        </ul>
+        <!-- /pill buttons -->
+        
+        <p class="lead">Jonathan Waltz</p>        
+      </div>
+      <!-- /header -->
+
+      <hr>
+      
+      <!-- body content -->
+      <div class="jumbotron">
+        <h1>Tic Tac Toe</h1>        
+        <p class="lead">Fancy a game or two?</p>
+        <applet code="JonA07.class" archive="JonA07.jar" width="452" height="491">Some browsers do not support Java applets. If you are seeing this try switching to FireFox with Java enabled.</applet>
+        <p class="lead">Documentation can be found on the <a href="docs.html">docs</a> page</p>
+        <a class="coinbase-button" data-code="d9651fc94a69a4ee6631ee62962bb07c" data-button-style="donation_large" href="https://coinbase.com/checkouts/d9651fc94a69a4ee6631ee62962bb07c">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+      </div>
+      <!-- /body content -->
+
+      <hr>
+  
+      <!-- footer -->
+      <div class="footer">        
+        <p>&copy; Jonathan Waltz 2013</p>
+      </div>
+      <!-- /footer -->
+
+    </div> 
+    <!-- /container -->    
+    
+    <!-- scripts go here -->
+    <script src="_/js/jquery.js"></script>
+    <script src="_/js/jquery.backstretch.min.js"></script>
+    <script>$.backstretch("_/img/background.jpg");</script>
+
+  </body>
+</html>
