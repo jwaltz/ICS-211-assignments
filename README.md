@@ -15,8 +15,13 @@ data structures, searching and sorting algorithms, numerical errors.
 Course Objectives
 =================
 Upon successfully completing this course, students will be:
+
 -competent Java programmers
+
 -proficient with common best practices in object-oriented programming, software design, and implementation
+
 -familiar with common abstract data types (such as stacks, queues, lists, and trees)
+
 -familiar with common searching and sorting algorithms
+
 -able to evaluate, choose, customize, and implement the most appropriate algorithm or data structure for a given problem
